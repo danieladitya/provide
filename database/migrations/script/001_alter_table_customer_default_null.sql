@@ -1,0 +1,1 @@
+ALTER TABLE `customers` CHANGE `updatedby_id` `updatedby_id` INT(11) NULL, CHANGE `createdby_id` `createdby_id` INT(11) NULL, CHANGE `created_at` `created_at` DATETIME NULL, CHANGE `updated_at` `updated_at` DATETIME NULL, CHANGE `deleted_at` `deleted_at` DATETIME NULL;

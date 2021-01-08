@@ -1,0 +1,1 @@
+ALTER TABLE `invoices` ADD `bank_id` BIGINT NOT NULL AFTER `date_payment`; 
